@@ -1,0 +1,211 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    font-family:  'Salsa';
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover
+{
+    color:  #600080;
+    text-decoration: underline;
+}
+
+input[type=text], input[type=password]
+{
+    font-size: 14px;
+    font-family:  'Salsa';
+    padding: 2px;
+}
+
+textarea
+{
+    font-size: 14px;
+    font-family:  'Salsa';
+    padding: 2px;
+}
+input[type=submit], input[type=reset]
+{
+    font-family:  'Salsa';
+    background-color: #600080;  
+    margin-left: -5px; 
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 2px;
+}
+
+header
+{
+    height: 100px;
+    padding: 5px 50px;
+}
+
+.logo
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+header #profile
+{
+    float: right;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+
+#profile a
+{
+    padding: 10px;
+    cursor: pointer; 
+}
+
+#profile a img
+{
+    width: 25px;
+    height: 25px;
+}
+
+nav
+{
+    text-align: center;
+    height: 40px;
+    padding-top: 12px;
+    border-top: 0.2px lavender solid;
+    border-bottom: 0.2px lavender solid;
+    background-color: #d966ff;
+}
+nav a
+{
+
+    padding: 12px;
+    color: black;
+    font-size: 18px;
+}
+
+footer
+{
+   height: 200px;
+   padding: 30px;
+   
+   border-top: 1px lavender solid;
+   background-color: #d966ff;
+}
+
+footer a, nav a
+{
+    padding: 20px;
+    color: black;
+    font-size: 18px;
+}
+
+.path
+{
+    padding: 10px 50px;
+    width: 170px;
+    float: left;
+   
+}
+.myslides
+{
+    display: none;
+}
+
+.img
+{
+    vertical-align: middle;
+    width: 100%;
+    height: 500px;
+}
+
+.slideshow-container 
+{
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.fade
+{
+    animation-name: fade;
+    animation-duration: 1.5s; 
+}
+main
+{
+    margin: 0px 50px;
+}
+.form
+{
+   width: 400px;
+   border: 1px #bfbff3 solid;
+   text-align: center;
+   padding: 20px 70px;
+   margin: 5% 32%;
+   z-index: 1;
+   background-color: #c99cc0;
+   border-radius: 5px;
+}
+
+.form table
+{
+    border-spacing: 15px;
+    height: 120px;
+    font-size: 18px;
+}
+
+.galary
+{
+    margin-left: 250px;
+}
+
+.galary table
+{
+    border-spacing: 30px 5px;
+}
+ 
+.galary table tr
+{
+    height: 500px;
+}
+.galary .product
+{
+    
+}
+
+.product img
+{
+    width: 300px;
+    height: 400px;
+    
+}
+
+.product .desc
+{
+    text-align: center;
+}
+
+.content
+{
+    padding: 10px;
+    width: 60%;
+    line-height: 1.5;
+    word-spacing: 5px;
+}
+
+.panel
+{
+    width: 100px;
+    height: 70px;
+    border: 1px #600080 solid;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}

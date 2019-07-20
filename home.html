@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Angraag</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Salsa' rel='stylesheet'>
+        
+        <link href="style.css?version=1" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="images/logoo4.jpeg" class="logo">
+            <div id="profile">
+                <a>
+                    <i class="fa fa-heart-o"></i>
+                    Wishlist
+                </a>
+                <a>
+                    <i class="fa fa-shopping-cart"></i>
+                    Shopping Cart
+                </a>
+                <a href="login.html">
+                    <i class="fa fa-user-circle-o"></i>
+                    Login/Register
+                </a>
+            </div>
+        </header>
+        <nav>
+            <a href="newArrivals.html">New Arrivals</a>
+            <a href="#">Suit Sets</a>
+            <a href="#">Lehengas</a>
+            <a href="#">Maxi Dresses</a>
+            <a href="#">Short Dresses/Tops</a>
+            <a href="#">Kurta/Twin Sets</a>    
+            <a href="#">Jump Suits</a>
+            <a href="#">Under 1499/-</a>
+            <a href="#">Sale</a>
+        </nav>
+            <main>
+                
+                <div class="slideshow-container" style="box-sizing: border-box;">
+                    <div class="myslides fade">
+                        <img src="images/slideshow/1.jpg" class="img">
+                    </div>
+                    <div class="myslides fade">
+                        <img src="images/slideshow/2.jpg" class="img">
+                    </div>
+                    <div class="myslides fade">
+                        <img src="images/slideshow/3.jpg" class="img">
+                    </div>
+                    <div class="myslides fade">
+                        <img src="images/slideshow/4.jpg" class="img">
+                    </div>
+                    <div class="myslides fade">
+                        <img src="images/slideshow/5.jpg" class="img">
+                    </div>
+                    <div class="myslides fade">
+                        <img src="images/slideshow/6.jpg" class="img">
+                    </div>
+                    <div class="myslides fade">
+                        <img src="images/slideshow/7.jpg" class="img">
+                    </div>
+               </div>
+            <div class="galary">
+                <div class="product">
+                    <img src="images/products/1.jpeg">
+                </div>
+                
+            </div>
+            </main>
+        <footer>
+            <a href="#contactus">Contact Us</a>
+            <a href="aboutus.jsp">About Us</a>
+            <a>Terms & Conditions</a>
+            <a>Privacy Policy</a>
+            <a>Exchange & Shipping Policy</a>
+            <br/>
+            <form style="font-size: 18px; padding: 20px;">
+                Subscribe Now :
+                <input type="text" placeholder="Enter Your Email Address" size="25">
+                <input type="submit" value="subscribe">
+            </form>
+            <a href="https://www.facebook.com/Angraag-355145051860113/" style="font-size: 35px;"><i class="fa fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/angraag_/?hl=en" style="font-size: 35px;"><i class="fa fa-instagram"></i></a>
+            <a href="#gplus" style="font-size: 35px;"><i class="fa fa-google-plus-square"></i></a>
+            <a href="#pinterest" style="font-size: 35px;"><i class="fa fa-pinterest-square"></i></a>
+            <a href="#twitter" style="font-size: 35px;"><i class="fa fa-twitter-square"></i></a>
+            <a href="#youtube" style="font-size: 35px;"><i class="fa fa-youtube-play" ></i></a>
+        </footer>
+        <script>
+            var slideIndex=0;
+            showSlides();
+
+            function showSlides()
+            {
+                var i;
+                var slides=document.getElementsByClassName("myslides");
+                for(i=0; i<slides.length; i++)
+                {
+                    slides[i].style.display="none";
+                }
+                slideIndex++;
+                if(slideIndex>slides.length)
+                {
+                    slideIndex=1;
+                }
+                slides[slideIndex-1].style.display="block";
+                setTimeout(showSlides, 3000);
+            }
+        </script>
+    </body>
+</html>
